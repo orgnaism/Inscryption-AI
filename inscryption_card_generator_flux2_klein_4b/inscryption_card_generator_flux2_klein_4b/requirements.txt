@@ -1,0 +1,18 @@
+# Core card generation and rendering dependencies
+pydantic>=2,<3
+Pillow>=10,<13
+python-dotenv>=1,<2
+# Needed only if you call the original webcam + Ollama analyzer:
+opencv-python>=4.8,<5
+ollama>=0.4,<1
+
+# Native FLUX.2 Klein image generation
+# Install the appropriate PyTorch build for your GPU first (see README).
+torch>=2.5
+transformers>=4.55
+accelerate>=1.0
+safetensors>=0.5
+huggingface_hub>=0.35
+# The current Flux2KleinPipeline is on the diffusers main branch.
+# For reproducibility, see README for installing a specific diffusers commit.
+diffusers @ git+https://github.com/huggingface/diffusers.git

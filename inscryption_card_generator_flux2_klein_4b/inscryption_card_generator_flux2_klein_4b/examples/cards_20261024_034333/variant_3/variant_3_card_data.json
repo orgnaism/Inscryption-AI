@@ -1,0 +1,14 @@
+{
+  "name": "FeralSpine",
+  "attack": 3,
+  "health": 3,
+  "cost_blood": 2,
+  "sigil_name": "Mighty Leap",
+  "sigil_description": "Can block airborne threats.",
+  "tribe": "Woodland",
+  "rarity": "Common",
+  "lore": "FeralSpine was born from a rough, ridged pinecone; it bears the mark of Mighty Leap.",
+  "portrait_path": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_034333\\variant_3\\variant_3_portrait_128.png",
+  "full_card_path": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_034333\\variant_3\\variant_3_full_card.png",
+  "prompt_path": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_034333\\variant_3\\variant_3_prompt.txt"
+}

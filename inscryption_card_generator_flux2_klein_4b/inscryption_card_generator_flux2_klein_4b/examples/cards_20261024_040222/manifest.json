@@ -1,0 +1,12 @@
+{
+  "variants": [
+    {
+      "analysis": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\pinecone.json",
+      "photo": null,
+      "card_data": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_040222\\variant_1\\variant_1_card_data.json",
+      "portrait": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_040222\\variant_1\\variant_1_portrait_128.png",
+      "full_card": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_040222\\variant_1\\variant_1_full_card.png",
+      "prompt": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_040222\\variant_1\\variant_1_prompt.txt"
+    }
+  ]
+}

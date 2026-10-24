@@ -1,0 +1,15 @@
+{
+  "object_name": "pinecone",
+  "dominant_material": "organic",
+  "secondary_materials": ["wood"],
+  "textures": ["rough", "ridged", "sharp"],
+  "hardness": "hard",
+  "flexibility": "rigid",
+  "size": "small",
+  "shape": "irregular",
+  "reflective": false,
+  "sharp": true,
+  "organic": true,
+  "electronic": false,
+  "confidence": "high"
+}
