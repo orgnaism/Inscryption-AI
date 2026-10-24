@@ -75,6 +75,44 @@ Confidence = Literal[
 ]
 
 
+# Optional extension: anatomical / structural features actually visible in the photo.
+# Lets the card generator tell real claws or shells apart from a generically
+# "sharp" or "hard" object. Older scans without it still validate.
+Feature = Literal[
+    "fur",
+    "feathers",
+    "scales",
+    "skin",
+    "shell",
+    "carapace",
+    "wings",
+    "beak",
+    "claws",
+    "talons",
+    "fangs",
+    "horns",
+    "antlers",
+    "tusks",
+    "hooves",
+    "tail",
+    "fins",
+    "quills",
+    "spines",
+    "thorns",
+    "stinger",
+    "pincers",
+    "mandibles",
+    "antennae",
+    "many_legs",
+    "leaves",
+    "bark",
+    "petals",
+    "seeds",
+    "blade",
+    "point"
+]
+
+
 class ObjectAnalysis(BaseModel):
     object_name: str
 
@@ -94,3 +132,7 @@ class ObjectAnalysis(BaseModel):
     electronic: bool
 
     confidence: Confidence
+
+    # Optional extensions (defaults keep older JSON valid).
+    visible_features: list[Feature] = []
+    subject_count: int = 1

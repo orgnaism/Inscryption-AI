@@ -1,7 +1,7 @@
 import json
 
 from camera import capture_object
-from analyzer import analyze_object
+from analyzer import AnalysisError, analyze_object
 
 
 def main():
@@ -18,7 +18,11 @@ def main():
     print("Analyzing object...")
     print()
 
-    result = analyze_object(image_path)
+    try:
+        result = analyze_object(image_path)
+    except AnalysisError as exc:
+        print(f"Analysis failed: {exc}")
+        return
 
     print("=== OBJECT ANALYSIS ===")
     print(json.dumps(result, indent=4))
