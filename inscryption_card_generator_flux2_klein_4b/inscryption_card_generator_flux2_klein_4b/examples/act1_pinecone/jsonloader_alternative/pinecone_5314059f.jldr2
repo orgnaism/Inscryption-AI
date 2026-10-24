@@ -1,0 +1,20 @@
+{
+  "name": "pinecone_5314059f",
+  "modPrefix": "ScannedCards",
+  "displayedName": "Pinecone",
+  "description": "A pinecone from beyond the cabin. Strike it and bleed.",
+  "metaCategories": [
+    "ChoiceNode",
+    "TraderOffer"
+  ],
+  "cardComplexity": "Simple",
+  "temple": "Nature",
+  "baseAttack": 0,
+  "baseHealth": 3,
+  "bloodCost": 1,
+  "tribes": [],
+  "abilities": [
+    "Sharp"
+  ],
+  "texture": "pinecone_5314059f_jl.png"
+}

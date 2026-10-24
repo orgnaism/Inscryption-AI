@@ -1,0 +1,219 @@
+{
+  "card_id": "pinecone_5314059f",
+  "display_name": "Pinecone",
+  "description": "A pinecone from beyond the cabin. Strike it and bleed.",
+  "object_name": "pinecone",
+  "subject_kind": "plant",
+  "tribe": "Miscellaneous",
+  "game_tribes": [],
+  "attack": 0,
+  "health": 3,
+  "blood_cost": 1,
+  "sigils": [
+    {
+      "id": "Sharp",
+      "display_name": "Sharp Quills",
+      "power": 2,
+      "effect": "Once this card is struck, the striker is dealt 1 damage.",
+      "reason": "physical rule 'passive_spines': rigid sharp surface on a non-animal -> eligible for Sharp Quills, no attack bonus"
+    }
+  ],
+  "card_power": {
+    "formula": "sigil power + health + 2 x attack (+ combo surcharge)",
+    "attack_part": 0,
+    "health_part": 3,
+    "sigil_parts": {
+      "Sharp": 2
+    },
+    "combo_surcharge": 0,
+    "combo_reasons": [],
+    "total": 5
+  },
+  "source_attributes": {
+    "object_name": "pinecone",
+    "dominant_material": "organic",
+    "secondary_materials": [
+      "wood"
+    ],
+    "textures": [
+      "rough",
+      "ridged",
+      "sharp"
+    ],
+    "hardness": "hard",
+    "flexibility": "rigid",
+    "size": "small",
+    "shape": "irregular",
+    "reflective": false,
+    "sharp": true,
+    "organic": true,
+    "electronic": false,
+    "confidence": "high"
+  },
+  "validation_status": "valid",
+  "validation": {
+    "errors": [],
+    "warnings": [],
+    "adjustments": [],
+    "checks": {
+      "1_stat_ranges": {
+        "passed": true,
+        "detail": "0/3 within attack 0-4, health 1-7"
+      },
+      "2_cost_matches_power": {
+        "passed": true,
+        "detail": "CP 5 -> 1 blood (card has 1)"
+      },
+      "3_sigil_combination": {
+        "passed": true,
+        "detail": "1 allowlisted sigil(s), no forbidden pairs, effective attack 0"
+      },
+      "4_no_single_attribute_dominates": {
+        "passed": true,
+        "detail": "largest CP bonus from one JSON field is 1 (limit 2): {'hardness/material': 1}"
+      },
+      "5_tribe_appropriate": {
+        "passed": true,
+        "detail": "plant subject -> Miscellaneous"
+      },
+      "6_plausible_in_card_pool": {
+        "passed": true,
+        "detail": "CP 5; vanilla commons at 1 blood span (3, 6)"
+      }
+    }
+  },
+  "rescan_recommended": false,
+  "variant": 0,
+  "artwork_reference": {
+    "act1_portrait_114x94": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_pinecone\\variant_1\\variant_1_portrait_114x94.png",
+    "preview_portrait_128": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_pinecone\\variant_1\\variant_1_portrait_128.png",
+    "full_card_preview": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_pinecone\\variant_1\\variant_1_full_card.png",
+    "prompt": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_pinecone\\variant_1\\variant_1_prompt.txt",
+    "generated_by": "placeholder (dry run)"
+  },
+  "diagnostics": {
+    "normalized_analysis": {
+      "object_name": "pinecone",
+      "dominant_material": "organic",
+      "secondary_materials": [
+        "wood"
+      ],
+      "textures": [
+        "rough",
+        "ridged",
+        "sharp"
+      ],
+      "hardness": "hard",
+      "flexibility": "rigid",
+      "size": "small",
+      "shape": "irregular",
+      "reflective": false,
+      "sharp": true,
+      "organic": true,
+      "electronic": false,
+      "confidence": "high",
+      "effective_confidence": "high",
+      "visible_features": [],
+      "subject_count": 1,
+      "missing": [],
+      "issues": [],
+      "contradictions": []
+    },
+    "identification": {
+      "object_name": "pinecone",
+      "matched_phrase": "pinecone",
+      "kind": "plant",
+      "taxonomy_tribe": "Miscellaneous",
+      "traits": [],
+      "names": [
+        "Pinecone",
+        "Strobilus"
+      ],
+      "is_animal": false,
+      "is_group": false,
+      "supported": true,
+      "subjects": [
+        {
+          "phrase": "pinecone",
+          "kind": "plant",
+          "tribe": "Miscellaneous",
+          "depicted": false
+        }
+      ],
+      "multiple_subjects": false,
+      "tribe_conflict": false,
+      "reasons": [
+        "'pinecone' matched taxonomy phrase 'pinecone' (kind=plant, taxonomy tribe=Miscellaneous)"
+      ],
+      "notes": []
+    },
+    "confidence": {
+      "reported": "high",
+      "after_normalization": "high",
+      "used": "high"
+    },
+    "tribe_reason": "plant subjects are never given an animal tribe",
+    "physical_profile": {
+      "size": "small",
+      "toughness_level": 2,
+      "toughness_sources": [
+        "hardness=hard"
+      ],
+      "brittle": false,
+      "sharp_evidence": "strong",
+      "natural_weapon": false,
+      "weapons": [],
+      "predator": false,
+      "protective_structure": false,
+      "edge": false,
+      "passive_spines": true,
+      "tall_structure": false,
+      "stone_body": false,
+      "interpretation": {
+        "size": "small: sets the baseline (health 2); never sets cost by itself",
+        "hardness": "hard: toughness evidence",
+        "dominant_material": "organic: toughness evidence (overlaps hardness; strongest one wins)",
+        "secondary_materials": "['wood']: weaker supplementary toughness evidence",
+        "toughness": "level 2 from ['hardness=hard'] -> +1 health",
+        "flexibility": "rigid: secondary; no direct stat effect",
+        "sharp": "True: sharpness evidence is strong",
+        "natural_weapon": "sharpness on a non-animal (or an animal without natural weapons) is not a weapon",
+        "passive_spines": "rigid sharp surface on a non-animal -> eligible for Sharp Quills, no attack bonus",
+        "textures": "['rough', 'ridged', 'sharp']: used only as corroboration (sharpness, protective structure), never alone",
+        "shape": "irregular: only matters for blade-like objects and tall structures",
+        "reflective": "False: descriptive surface evidence only; no stat effect",
+        "organic": "True: used to tell living subjects from objects and depictions",
+        "electronic": "False: electronic subjects become plain object cards; Act 1 has no energy or technology sigils",
+        "confidence": "high reported, high after checks"
+      }
+    },
+    "stat_estimate": {
+      "attack": 0,
+      "health": 3,
+      "trace": [
+        "health 2 from size=small",
+        "attack 0: plant subjects do not hunt",
+        "+1 health: toughness level 2 from ['hardness=hard']",
+        "estimate: 0/3"
+      ],
+      "bonus_power_by_field": {
+        "hardness/material": 1
+      },
+      "protective_bonus_applied": false
+    },
+    "sigil_eligibility": [
+      {
+        "id": "Sharp",
+        "display_name": "Sharp Quills",
+        "power": 2,
+        "category": "defense",
+        "priority": 70,
+        "signature": false,
+        "reason": "physical rule 'passive_spines': rigid sharp surface on a non-animal -> eligible for Sharp Quills, no attack bonus"
+      }
+    ],
+    "sigil_skipped": [],
+    "notes": [],
+    "strict_schema": "passed"
+  }
+}

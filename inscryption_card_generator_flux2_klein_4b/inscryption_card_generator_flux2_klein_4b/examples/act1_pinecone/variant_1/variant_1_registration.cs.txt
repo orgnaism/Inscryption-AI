@@ -1,0 +1,8 @@
+// Registered at runtime by ScannedCardsLoader (Plugin.Register) from cards/pinecone_5314059f.json
+CardInfo info = CardManager.New("ScannedCards", "pinecone_5314059f", "Pinecone", 0, 3, "A pinecone from beyond the cabin. Strike it and bleed.");
+info.SetBloodCost(1);
+info.SetDefaultPart1Card();  // ChoiceNode + TraderOffer, CardTemple.Nature
+info.AddAbilities(Ability.Sharp);
+// Miscellaneous: no tribe (empty CardInfo.tribes), as for vanilla Cat/Grizzly/Porcupine
+info.SetPortrait(TextureHelper.GetImageAsTexture(Path.Combine(cardsDir, "pinecone_5314059f.png")));  // 114x94
+// in-game card name: ScannedCards_pinecone_5314059f

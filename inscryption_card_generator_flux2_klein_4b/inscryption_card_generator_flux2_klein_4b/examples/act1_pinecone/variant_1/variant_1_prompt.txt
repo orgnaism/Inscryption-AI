@@ -1,0 +1,16 @@
+Create a single 2D illustration of a pinecone, shown as the plant it is, for an Inscryption Act 1 card named "Pinecone". Do not give it a face, eyes, mouth, limbs, claws, teeth or any other creature features.
+Use these physical properties from the scanned object:
+- dominant material: organic
+- secondary materials: wood
+- textures: rough, ridged, sharp
+- hardness: hard
+- flexibility: rigid
+- size: small
+- shape: irregular
+- reflective: False
+- sharp: True
+- organic: True
+- electronic: False
+Gameplay flavor: tribe=Miscellaneous, sigils=Sharp Quills, attack=0, health=3.
+Style requirements: dark ink-and-charcoal woodcut look like Inscryption's Act 1 cards, moody horror-fantasy tone, crisp silhouette, earthy muted palette, readable when shrunk to 114x94 pixels, subject centered and filling most of a wide frame, plain flat solid light-grey background (it is removed afterwards), no text, no border, no UI.
+It must be an original design, not a copy of an existing game card.

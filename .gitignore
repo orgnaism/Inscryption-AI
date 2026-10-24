@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/
+# C# companion mod build output and the locally supplied API DLL
+inscryption_mod/**/bin/
+inscryption_mod/**/obj/
+inscryption_mod/**/lib/*.dll

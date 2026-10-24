@@ -1,0 +1,23 @@
+{
+  "variants": [
+    {
+      "analysis": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\raven.json",
+      "photo": null,
+      "card_id": "raven_41830e1d",
+      "display_name": "Raven",
+      "validation_status": "valid",
+      "rescan_recommended": false,
+      "card_data": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\variant_1\\variant_1_card_data.json",
+      "portrait": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\variant_1\\variant_1_portrait_128.png",
+      "act1_portrait": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\variant_1\\variant_1_portrait_114x94.png",
+      "full_card": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\variant_1\\variant_1_full_card.png",
+      "prompt": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\variant_1\\variant_1_prompt.txt",
+      "registration_preview": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\variant_1\\variant_1_registration.cs.txt",
+      "mod_export": {
+        "card_json": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\mod_export\\ScannedCardsLoader\\cards\\raven_41830e1d.json",
+        "portrait": "C:\\Users\\hulks\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2c313e03-0d01-416f-ac99-5832ab9d1e44\\056a0864-fefe-4c8e-9dae-8300ce4154ca\\scratch-2026-10-24-7e3571\\repo_src\\Inscryption-AI-Card-generator\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\act1_raven\\mod_export\\ScannedCardsLoader\\cards\\raven_41830e1d.png"
+      }
+    }
+  ],
+  "export_dir": "examples\\act1_raven\\mod_export\\ScannedCardsLoader\\cards"
+}

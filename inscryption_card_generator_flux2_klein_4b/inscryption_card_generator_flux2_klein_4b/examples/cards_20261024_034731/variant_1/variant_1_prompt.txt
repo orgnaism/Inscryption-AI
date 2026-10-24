@@ -1,0 +1,17 @@
+Create a single 2D pixel-art creature portrait inspired by the real-world object "pinecone".
+The creature's fantasy name is "ThistleFang".
+Use these physical properties from the scanned object:
+- dominant material: organic
+- secondary materials: wood
+- textures: rough, ridged, sharp
+- hardness: hard
+- flexibility: rigid
+- size: small
+- shape: irregular
+- reflective: False
+- sharp: True
+- organic: True
+- electronic: False
+Gameplay flavor: tribe=Woodland, sigil=Bone Heap, attack=3, health=3.
+Style requirements: dark retro pixel art, moody horror-fantasy tone, crisp silhouette, earthy muted palette, readable at 128x128, subject centered, plain dark background, no text, no border, no UI.
+The design should feel suitable for an Inscryption- or FloppyScryption-style card portrait, but must be an original creature design.

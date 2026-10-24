@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "card_id": "raven_41830e1d",
+  "display_name": "Raven",
+  "description": "The Raven. It profits from every death.",
+  "attack": 1,
+  "health": 3,
+  "blood_cost": 2,
+  "tribes": [
+    "Bird"
+  ],
+  "abilities": [
+    "Flying",
+    "OpponentBones"
+  ],
+  "portrait": "raven_41830e1d.png",
+  "tribe_label": "Avian",
+  "card_power": 7,
+  "validation_status": "valid"
+}

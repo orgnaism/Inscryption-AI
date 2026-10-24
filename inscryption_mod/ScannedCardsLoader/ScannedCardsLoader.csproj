@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    BepInEx plugin that registers cards exported by the Python generator.
+    Package versions follow the InscryptionAPI wiki "getting started" page
+    (docs/wiki/getting_started.md in InscryptionModding/InscryptionAPI).
+    Package sources are listed in NuGet.Config next to this file.
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ScannedCardsLoader</AssemblyName>
+    <RootNamespace>ScannedCardsLoader</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0</Version>
+    <Nullable>disable</Nullable>
+    <!--
+      InscryptionAPI is not published on a NuGet feed this project can reach, so it is
+      referenced as a DLL. Default: ./lib/InscryptionAPI.dll. Override with
+      dotnet build -p:InscryptionAPIDir="C:\path\to\BepInEx\plugins\API_dev-API"
+    -->
+    <InscryptionAPIDir Condition="'$(InscryptionAPIDir)' == ''">$(MSBuildThisFileDirectory)lib</InscryptionAPIDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.19" />
+    <PackageReference Include="HarmonyX" Version="2.9.0" />
+    <PackageReference Include="Inscryption.GameLibs" Version="1.9.0-r.0" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.24" IncludeAssets="compile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="InscryptionAPI">
+      <HintPath>$(InscryptionAPIDir)\InscryptionAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

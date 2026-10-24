@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "card_id": "pinecone_5314059f",
+  "display_name": "Pinecone",
+  "description": "A pinecone from beyond the cabin. Strike it and bleed.",
+  "attack": 0,
+  "health": 3,
+  "blood_cost": 1,
+  "tribes": [],
+  "abilities": [
+    "Sharp"
+  ],
+  "portrait": "pinecone_5314059f.png",
+  "tribe_label": "Miscellaneous",
+  "card_power": 5,
+  "validation_status": "valid"
+}

@@ -1,0 +1,107 @@
+{
+  "_about": [
+    "Tunable balancing rules. Every number here is read by interpretation.py, stats.py, sigils.py or balance.py; nothing is hardcoded per subject.",
+    "Card Power (CP) = sum(sigil power) + health + 2 * attack  (r/inscryption 'Treatise on Inscryption Card Creation').",
+    "Guide averages: 1 blood ~5.2 CP, 2 blood ~8, 3 blood ~10, 4 blood ~12. The bands below are the inclusive ranges that reproduce the vanilla blood-cost commons in 'calibration' (see tests/test_balance.py)."
+  ],
+
+  "card_power": {"attack_weight": 2, "health_weight": 1},
+
+  "stat_bounds": {"attack_min": 0, "attack_max": 4, "health_min": 1, "health_max": 7},
+  "max_effective_attack": 4,
+  "max_sigils": 2,
+  "max_blood_cost": 3,
+  "allow_free_cards": true,
+
+  "blood_cost_bands": [
+    {"blood": 0, "max_power": 3, "max_attack": 1, "max_sigils": 1, "forbidden_categories": ["offense", "evasion"]},
+    {"blood": 1, "max_power": 6},
+    {"blood": 2, "max_power": 10},
+    {"blood": 3, "max_power": 14}
+  ],
+  "attack_minimum_cost": {"3": 2, "4": 3},
+  "airborne_attack_cap_by_cost": {"0": 1, "1": 1, "2": 2, "3": 3},
+  "tribe_minimum_cost": {"Canine": 1},
+
+  "confidence": {
+    "low":    {"max_sigils": 0, "allow_tribe": false, "attack_cap": 1, "health_cap": 3, "rescan_recommended": true},
+    "medium": {"max_sigils": 1, "allow_tribe": true},
+    "high":   {"max_sigils": 2, "allow_tribe": true}
+  },
+  "contradictions_per_confidence_step": 2,
+
+  "attack_model": {
+    "animal_size_base": {"tiny": 0, "small": 1, "medium": 1, "large": 2},
+    "corroborated_weapon_bonus": 1,
+    "predator_bonus": 1,
+    "predator_min_size": "medium",
+    "object_edge_bonus": 1,
+    "object_edge_shapes": ["angular", "elongated"],
+    "non_animal_attack_cap": 1,
+    "colony_attack_cap": 0
+  },
+
+  "health_model": {
+    "size_base": {"tiny": 1, "small": 2, "medium": 3, "large": 4},
+    "hardness_level": {"soft": 0, "medium": 1, "hard": 2},
+    "material_level": {"stone": 2, "metal": 2, "wood": 1, "ceramic": 1, "leather": 1, "rubber": 1, "plastic": 1, "electronic": 1, "mixed": 1, "glass": 0, "fabric": 0, "paper": 0, "organic": 0, "unknown": 0},
+    "secondary_material_discount": 1,
+    "toughness_bonus": {"0": 0, "1": 0, "2": 1},
+    "protective_structure_bonus": 1,
+    "protective_corroborating_textures": ["ridged", "segmented", "rough", "glossy"],
+    "brittle_materials": ["glass", "ceramic"],
+    "brittle_penalty": 1
+  },
+
+  "tribe_shaping": {
+    "Avian":   {"max_attack_if_small": 1},
+    "Hooved":  {"health_exceeds_attack": true},
+    "Canine":  {"max_health_over_attack": 2},
+    "Reptile": {"defensive_attack_cap": 1}
+  },
+
+  "ai_proposal": {"stat_tolerance": 1, "max_name_length": 16, "max_description_length": 120},
+
+  "calibration": {
+    "_about": "Vanilla Act 1 / Kaycee's Mod blood-cost commons (stats checked against the Inscryption wiki and the guide's Card Power table). 'outlier' cards are deliberately mis-costed in vanilla and are reported, not matched.",
+    "cards": [
+      {"name": "Squirrel", "attack": 0, "health": 1, "sigils": [], "blood": 0},
+      {"name": "Geck", "attack": 1, "health": 1, "sigils": [], "blood": 0},
+      {"name": "Stoat", "attack": 1, "health": 3, "sigils": [], "blood": 1},
+      {"name": "Wolf Cub", "attack": 1, "health": 1, "sigils": ["Evolve"], "blood": 1},
+      {"name": "Wolf", "attack": 3, "health": 2, "sigils": [], "blood": 2},
+      {"name": "Bloodhound", "attack": 2, "health": 3, "sigils": ["GuardDog"], "blood": 2},
+      {"name": "Sparrow", "attack": 1, "health": 2, "sigils": ["Flying"], "blood": 1},
+      {"name": "Raven", "attack": 2, "health": 3, "sigils": ["Flying"], "blood": 2},
+      {"name": "Magpie", "attack": 1, "health": 1, "sigils": ["Flying", "Tutor"], "blood": 2},
+      {"name": "Kingfisher", "attack": 1, "health": 1, "sigils": ["Flying", "Submerge"], "blood": 1},
+      {"name": "Elk Fawn", "attack": 1, "health": 1, "sigils": ["Strafe", "Evolve"], "blood": 1},
+      {"name": "Elk", "attack": 2, "health": 4, "sigils": ["Strafe"], "blood": 2},
+      {"name": "Moose Buck", "attack": 3, "health": 7, "sigils": ["StrafePush"], "blood": 3},
+      {"name": "Black Goat", "attack": 0, "health": 1, "sigils": ["TripleBlood"], "blood": 1},
+      {"name": "Pronghorn", "attack": 1, "health": 3, "sigils": ["Strafe", "SplitStrike"], "blood": 2},
+      {"name": "Wild Bull", "attack": 3, "health": 2, "sigils": ["StrafeSwap"], "blood": 2},
+      {"name": "Beehive", "attack": 0, "health": 2, "sigils": ["BeesOnHit"], "blood": 1},
+      {"name": "Strange Larva", "attack": 0, "health": 3, "sigils": ["Evolve"], "blood": 1},
+      {"name": "Bullfrog", "attack": 1, "health": 2, "sigils": ["Reach"], "blood": 1},
+      {"name": "Skink", "attack": 1, "health": 2, "sigils": ["TailOnHit"], "blood": 1},
+      {"name": "Adder", "attack": 1, "health": 1, "sigils": ["Deathtouch"], "blood": 2},
+      {"name": "River Snapper", "attack": 1, "health": 6, "sigils": [], "blood": 2},
+      {"name": "Mud Turtle", "attack": 2, "health": 2, "sigils": ["DeathShield"], "blood": 2},
+      {"name": "Cat", "attack": 0, "health": 1, "sigils": ["Sacrificial"], "blood": 1},
+      {"name": "Mole", "attack": 0, "health": 4, "sigils": ["WhackAMole"], "blood": 1},
+      {"name": "Porcupine", "attack": 1, "health": 2, "sigils": ["Sharp"], "blood": 1},
+      {"name": "River Otter", "attack": 1, "health": 1, "sigils": ["Submerge"], "blood": 1},
+      {"name": "Skunk", "attack": 0, "health": 3, "sigils": ["DebuffEnemy"], "blood": 1},
+      {"name": "Warren", "attack": 0, "health": 2, "sigils": ["DrawRabbits"], "blood": 1},
+      {"name": "Beaver", "attack": 1, "health": 3, "sigils": ["CreateDams"], "blood": 2},
+      {"name": "Field Mice", "attack": 2, "health": 2, "sigils": ["DrawCopy"], "blood": 2},
+      {"name": "Raccoon", "attack": 1, "health": 1, "sigils": ["OpponentBones"], "blood": 1},
+      {"name": "Grizzly", "attack": 4, "health": 6, "sigils": [], "blood": 3},
+      {"name": "Great White", "attack": 4, "health": 2, "sigils": ["Submerge"], "blood": 3},
+      {"name": "Dire Wolf", "attack": 2, "health": 5, "sigils": ["DoubleStrike"], "blood": 3},
+      {"name": "Ring Worm", "attack": 0, "health": 1, "sigils": [], "blood": 1, "outlier": "Deliberately weak; its value is the Campfire event."},
+      {"name": "Mantis", "attack": 1, "health": 1, "sigils": ["SplitStrike"], "blood": 1, "outlier": "Under-costed in vanilla (CP 7 at 1 blood)."}
+    ]
+  }
+}

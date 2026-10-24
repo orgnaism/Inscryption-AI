@@ -1,0 +1,8 @@
+// Registered at runtime by ScannedCardsLoader (Plugin.Register) from cards/raven_41830e1d.json
+CardInfo info = CardManager.New("ScannedCards", "raven_41830e1d", "Raven", 1, 3, "The Raven. It profits from every death.");
+info.SetBloodCost(2);
+info.SetDefaultPart1Card();  // ChoiceNode + TraderOffer, CardTemple.Nature
+info.AddAbilities(Ability.Flying, Ability.OpponentBones);
+info.AddTribes(Tribe.Bird);
+info.SetPortrait(TextureHelper.GetImageAsTexture(Path.Combine(cardsDir, "raven_41830e1d.png")));  // 114x94
+// in-game card name: ScannedCards_raven_41830e1d

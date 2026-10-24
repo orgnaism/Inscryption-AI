@@ -1,0 +1,17 @@
+{
+  "object_name": "raven",
+  "dominant_material": "organic",
+  "secondary_materials": [],
+  "textures": ["smooth", "glossy"],
+  "hardness": "soft",
+  "flexibility": "semi_flexible",
+  "size": "medium",
+  "shape": "irregular",
+  "reflective": true,
+  "sharp": false,
+  "organic": true,
+  "electronic": false,
+  "confidence": "high",
+  "visible_features": ["feathers", "wings", "beak"],
+  "subject_count": 1
+}

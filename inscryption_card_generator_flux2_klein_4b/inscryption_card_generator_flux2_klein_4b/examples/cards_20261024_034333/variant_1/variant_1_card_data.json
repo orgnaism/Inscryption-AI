@@ -1,0 +1,14 @@
+{
+  "name": "ThistleFang",
+  "attack": 3,
+  "health": 3,
+  "cost_blood": 2,
+  "sigil_name": "Bone Heap",
+  "sigil_description": "Returns stronger from remains.",
+  "tribe": "Woodland",
+  "rarity": "Common",
+  "lore": "ThistleFang was born from a rough, ridged pinecone; it bears the mark of Bone Heap.",
+  "portrait_path": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_034333\\variant_1\\variant_1_portrait_128.png",
+  "full_card_path": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_034333\\variant_1\\variant_1_full_card.png",
+  "prompt_path": "C:\\dev\\Inscryption-ai\\inscryption_card_generator_flux2_klein_4b\\inscryption_card_generator_flux2_klein_4b\\examples\\cards_20261024_034333\\variant_1\\variant_1_prompt.txt"
+}
